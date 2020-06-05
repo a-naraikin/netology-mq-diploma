@@ -1,0 +1,422 @@
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px; /* ? */ 
+	font-weight: 400;
+	font-style: normal;
+	width: 100%;
+}
+
+/* header-start */
+.header {
+	padding-top: 45px;
+	padding-bottom: 110px;
+	
+	position: relative;
+	
+  background-color: #0a0e34;
+	background-image: url(../imges/football_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+	box-sizing: border-box;
+}
+
+.header:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+	
+	background-color: #0a0e34;
+  opacity: 0.9;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.header-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* header > logo */
+.logo {
+	width: 191px;
+	margin-bottom: 281px;
+}
+
+/* header > headings */
+.header-headings {
+	width: 83.33%;
+	max-width: 1600px;
+	margin-bottom: 210px;
+	box-sizing: border-box;
+	
+	display: flex;
+	flex-direction: column;
+	
+	font-size: calc(64px + (90 - 64) * ( (100vw - 961px) / ( 1920 - 961) ));
+	font-weight: 700;
+	letter-spacing: 5px;
+	line-height: 1.04;
+	font-stretch: semi-condensed;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.level-two { 
+	margin-left: 26.25%; /*420px*/
+}
+
+/* header > buttons */
+.header-buttons {
+	display: flex;
+}
+
+.header-button {
+	width: 312px;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	box-sizing: border-box;
+	
+	position: relative;
+	
+	display: flex;
+	flex-direction: column;
+	
+	font-size: 13px;
+	letter-spacing: 1px; /**/
+	line-height: 1.4; /**/
+	color: #ffffff;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none; 
+	cursor: pointer;
+	border-radius: 38px;
+	background-color: #5e42b0;
+	filter: drop-shadow(0px 16px 12px #0a0e34);
+}
+
+.header-button:active {
+	filter: none;
+}
+
+.header-button-left {
+	padding-left: 104px;
+}
+
+.header-button-right {
+	padding-left: 128px;
+	margin-left: 50px;
+}
+
+.header-button-left:before {
+	content: "";
+	position: absolute;
+	
+	background-image: url(../svg/apple_logo_black.svg);
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 47px;
+	left: 35px;
+	top: 10px;
+}
+
+.header-button-right:before {
+	content: "";
+	position: absolute;
+	
+	background-image: url(../svg/google-play.svg);
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 47px;
+	left: 54px;
+	top: 16px;
+}
+
+.header-button-text  {
+	font-weight: 700;
+}
+/* header */
+/* main */
+.main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+
+
+.features {
+	position: relative;
+	width: 100%; /**/
+}
+
+.features-title {
+	padding-top: 116px;
+	padding-bottom: 48px;
+	font-size: 85px;
+	font-weight: 700;
+	line-height: 60px; /**/
+	letter-spacing: 5px;
+	color: #e7e7e7;
+	text-transform: uppercase;
+	font-stretch: semi-condensed;
+}
+
+.features-item {
+	padding-top: 60px;
+	padding-bottom: 55px;
+}
+
+.features-item-title {
+	padding-bottom: 25px;
+	
+	font-size: 36px;
+	letter-spacing: 2px;
+	line-height: 34px;/**/
+	color: #c1c1c1;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.features-item-text {
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #000000;
+	font-weight: 400;
+}
+
+.features-item-title span {
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 34px; /**/ 
+	color: #000000;
+	font-weight: 700;
+	/*text-align: center;*/
+	padding-right: 15px;
+	vertical-align: super;
+	
+	position: relative;
+}
+
+.features-item-title span:before {
+	content: "";
+	position: absolute;
+	width: 19px;
+	height: 5px;
+	border-radius: 2px;
+	background-color: #5e42b0;
+	top: 24px;
+}
+
+.features:before {
+	content: "";
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+.features-top:before {
+	background-image: url(../imges/footballer_566.png);
+	width: 566px;
+	height: 908px;
+	top: 27px;
+	right: calc(50% + 10px);
+}
+
+.features-bottom:before {
+	background-image: url(../imges/basketballer_991.png);
+	width: 991px;
+	height: 815px;
+	top: 23px;
+	left: calc(50% - 160px);
+}
+
+.features-title,
+.features-item-title,
+.features-item-text {
+	padding-left: 37px;
+	padding-right: 37px;
+	max-width: 750px;
+}
+
+.features-top .features-title,
+.features-top .features-item-title,
+.features-top .features-item-text {
+	margin-left: 50%;
+}
+
+.features-bottom .features-title,
+.features-bottom .features-item-title,
+.features-bottom .features-item-text {
+	margin-right: 50%;
+	margin-left: auto;
+}
+
+
+.features-item:nth-of-type(2) {
+	background-color: #F6F4FA;
+}
+
+.features-top .features-item:nth-of-type(3) {
+	background-color: #5E42B0;
+}
+
+.features-bottom .features-item:nth-of-type(3) {
+	background-color: #0A0E34;
+}
+
+.features-item:nth-of-type(3) p {
+	color: #ffffff;
+}
+
+.features-item:nth-of-type(3) span:before {
+	background-color: #efefef;
+}
+
+.features-bottom .features-item:nth-of-type(3) span {
+	color: #9173e6;
+}
+
+/* main */
+
+
+
+
+
+/* --- @media --- */
+@media (min-width: 641px) and (max-width: 960px) {
+	.header {
+		padding-top: 39px;
+		padding-bottom: 91px;
+		background-image: url(../imges/football_1280.jpg);
+	}
+	.logo {
+		width: 205px;
+		margin-bottom: 165px;
+	}
+	.header-headings {
+		font-size: calc(29px + (64 - 29) * ( (100vw - 641px) / ( 960 - 641) ));
+		max-width: 596px;
+		letter-spacing: 3px;
+		margin-bottom: 304px;
+	}
+	.header-title {
+		font-size: 64px;
+		line-height: 1.2;
+	}
+	.level-two { 
+		margin-left: 108px;
+	}
+	.header-button-right {
+		margin-left: calc(5px + (35 - 5) * ( (100vw - 641px) / ( 960 - 641) ));
+	}
+
+	
+	/* main */
+	/*.features-top:before {
+		background-image: url(../imges/footballer_497.png);
+		width: 497px;
+		height: 699px;
+	}
+
+	.features-bottom:before {
+		background-image: url(../imges/basketballer_436.png);
+		right: 0;
+		width: 436px;
+		height: 565px;
+	}
+	.features-top .features-title,
+	.features-top .features-item-title,
+	.features-top .features-item-text {
+		margin-left: 30%;
+	}
+
+	.features-bottom .features-title,
+	.features-bottom .features-item-title,
+	.features-bottom .features-item-text {
+		margin-right: 30%;
+		margin-left: auto;
+	}*/
+
+}
+
+
+@media (max-width: 640px) {
+	/* header */
+	.header {
+		height: 100vh;
+		padding-top: 33px;
+		padding-bottom: 84px;
+		background-image: url(../imges/football_767.jpg);
+	}
+	.logo {
+		width: 132px;
+		margin-bottom: 130px;
+	}
+	.header-headings {
+		max-width: 260px;
+		letter-spacing: 1px;
+		margin-bottom: 82px;
+	}
+	.header-title {
+		font-size: 29px;
+		line-height: 1.2;
+	}
+	.level-two { 
+		margin-top: 17px;
+		margin-left: 45px;
+	}
+	
+	.header-buttons {
+		flex-direction: column;
+	}
+	.header-button {
+		width: 280px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		font-size: 8px;
+		letter-spacing: 0;
+		padding-left: 112px;
+	}
+	.header-button-right { /**/
+		margin-left: 0;
+		margin-top: 14px;
+	}
+	.header-button-left:before {
+		width: 20px;
+		height: 24px;
+		left: 84px;
+		top: 10px;
+	}
+	.header-button-right:before {
+		width: 22px;
+		height: 24px;
+		left: 81px;
+		top: 10px;
+	}
+}
