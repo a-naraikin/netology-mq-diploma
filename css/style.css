@@ -27,7 +27,7 @@ body {
 /* header */
 .container { /* общие стили header и footer */
 	position: relative;
-	height: 100vh;
+	height: auto;
   background-color: #0a0e34;
   background-repeat: no-repeat;
   background-position: center top;
@@ -575,7 +575,7 @@ body {
 	.condition-content {
 		padding-top: calc(74px + (256 - 74) * ((100vw - 961px) / (1920 - 961) ));
 		padding-left: 6.7%;
-		padding-bottom: 50px;
+		padding-bottom: 0;
 		padding-right: calc(72px + (193 - 72) * ((100vw - 961px) / (1920 - 961) ));
 	}
 	.conditions:nth-child(4) .condition-content {
@@ -587,14 +587,16 @@ body {
 	}
 	.condition-number {
 		bottom: 48%;
-		left: 91%; 
+		right: 0;
+		left: calc(422px + (875 - 422) * ((100vw - 961px) / (1920 - 961) )); 
 		width: calc(117px + (168 - 117) * ((100vw - 961px) / (1920 - 961) ));
 		height: calc(117px + (155 - 117) * ((100vw - 961px) / (1920 - 961) ));
 		font-size: 24px;
 	}
 	
 	.conditions:nth-of-type(4) .condition-number {
-		left: -9%; 
+		left: calc(-59px + (-85 + 59) * ((100vw - 961px) / (1920 - 961) ))/*-59px -84px*/; 
+		right: 0;
 	}
 
 	.condition-number:before {
@@ -636,6 +638,7 @@ body {
 	.condition-number {
 		width: 168px;
 		height: 155px;
+		left: 91%;
 	}
 	
 	.header-headings { 
