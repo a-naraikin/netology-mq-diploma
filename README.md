@@ -1,4 +1,4 @@
 # [Surface]
-[Surface]:https://a-naraikin.github.io/mq-diploma/
+[Surface]:https://a-naraikin.github.io/netology-mq-diploma/
 
 ![Layout](./img/layouts.jpg)
