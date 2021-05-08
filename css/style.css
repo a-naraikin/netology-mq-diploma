@@ -13,31 +13,31 @@
 }
 
 * {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
 }
 
 /* header */
 .container { /* общие стили header и footer */
-	position: relative;
-	height: auto;
+  position: relative;
+  height: auto;
   background-color: #0a0e34;
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-	box-sizing: border-box;
+  box-sizing: border-box;
 } 
 
 .header {
-	padding-top: 33px;
-	background-image: url(../img/football_767.jpg);
+  padding-top: 33px;
+  background-image: url(../img/football_767.jpg);
 }
 
 .container:after { /* общие стили header и footer */
@@ -47,7 +47,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-	background-color: #0a0e34;
+  background-color: #0a0e34;
   opacity: 0.9;
 }
 
@@ -57,618 +57,612 @@ body {
 }
 
 .container-inner { /* общие стили header и footer */
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	margin-right: 20px;
-	margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .logo { 
-	width: 132px;
+  width: 132px;
 }
 
 .container-headings {
-	display: flex;
-	flex-direction: column;
-	line-height: 1.2;
-	font-stretch: semi-condensed;
-	color: #ffffff;
-	text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  font-stretch: semi-condensed;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .header-headings {
-	margin-top: 133px;
-	margin-bottom: 83px;
-	font-size: 28px;
-	letter-spacing: 1px;
-	text-align: left;
+  margin-top: 133px;
+  margin-bottom: 83px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-align: left;
 }
 
 .header-title-bottom { 
-	margin-top: 17px;
-	padding-left: 43px;
+  margin-top: 17px;
+  padding-left: 43px;
 }
 
 /* header and footer > buttons */
 .buttons { 
-	margin-bottom: 83px;
+  margin-bottom: 83px;
 }
 
 .button {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	width: 280px;
-	padding-top: 7px;
-	padding-left: 112px;
-	padding-bottom: 7px;
-	box-sizing: border-box;
-	font-size: 8px;
-	letter-spacing: 1px;
-	line-height: 1.4;
-	color: #ffffff;
-	text-align: left;
-	text-transform: uppercase;
-	text-decoration: none; 
-	cursor: pointer;
-	border-radius: 38px;
-	background-color: #5e42b0;
-	filter: drop-shadow(0px 16px 12px #0a0e34);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  padding-top: 7px;
+  padding-left: 112px;
+  padding-bottom: 7px;
+  box-sizing: border-box;
+  font-size: 8px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  color: #ffffff;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none; 
+  cursor: pointer;
+  border-radius: 38px;
+  background-color: #5e42b0;
+  filter: drop-shadow(0px 16px 12px #0a0e34);
 }
 
 .button:active { 
-	filter: none;
+  filter: none;
 }
 
 .button:last-child { 
-	margin-top: 14px;
+  margin-top: 14px;
 }
 
 .button:before {
-	content: "";
-	position: absolute;
-	left: 80px;
-	bottom: 7px;
-	width: 24px;
-	height: 24px;
-	background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  left: 80px;
+  bottom: 7px;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
 }
 
 .button:first-child:before {
-	background-image: url(../svg/apple_logo_black.svg);
+  background-image: url(../svg/apple_logo_black.svg);
 }
 
 .button:last-child:before {
-	background-image: url(../svg/google-play.svg);
+  background-image: url(../svg/google-play.svg);
 }
 
 .button-text  { 
-	font-weight: 700;
+  font-weight: 700;
 }
 
 /* main */
 .main { 
-	overflow: hidden;
+  overflow: hidden;
 }
 
 /* main > features */
 .features-title {
-	padding-top: 13px;
-	padding-bottom: 233px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 50px;
-	font-weight: 700;
-	line-height: 1.2;
-	letter-spacing: 3px;
-	color: #e7e7e7;
-	text-transform: uppercase;
-	font-stretch: semi-condensed;
+  padding-top: 13px;
+  padding-bottom: 233px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 3px;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-stretch: semi-condensed;
 }
 
 .feature-images { 
-	position: relative;
+  position: relative;
 }
 
 .feature-img { 
-	position: absolute;
+  position: absolute;
 }
 
 .features:first-child .feature-img {
-	right: calc(50% - 102px);
-	bottom: -57px;
+  right: calc(50% - 102px);
+  bottom: -57px;
 }
 
 .features:nth-of-type(2) .feature-img {
-	bottom: -26px;
-	left: calc(50% - 150px);
+  bottom: -26px;
+  left: calc(50% - 150px);
 }
 
 .features-item {
-	padding-top: 68px;
-	padding-bottom: 50px;
+  padding-top: 68px;
+  padding-bottom: 50px;
 }
 
 .features-item-title {
-	padding-bottom: 22px;
-	font-size: 20px;
-	font-weight: 700;
-	letter-spacing: 2px;
-	line-height: 1.2; /**/
-	color: #c1c1c1;
-	text-transform: uppercase;
+  padding-bottom: 22px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.2; /**/
+  color: #c1c1c1;
+  text-transform: uppercase;
 }
 
 .features-item-title span {
-	position: relative;
-	padding-right: 3px;
-	font-size: 14px;
-	font-weight: 700;
-	letter-spacing: 1px;
-	line-height: 34px; /**/ 
-	color: #000000;
-	vertical-align: super; 
+  position: relative;
+  padding-right: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 34px; /**/ 
+  color: #000000;
+  vertical-align: super; 
 }
 
 .features-item-title span:before {
-	content: "";
-	position: absolute;
-	top: 17px;
-	width: 15px;
-	height: 4px;
-	border-radius: 2px;
-	background-color: #5e42b0;
+  content: "";
+  position: absolute;
+  top: 17px;
+  width: 15px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #5e42b0;
 }
 
 .features:nth-of-type(2) .features-item:nth-of-type(3) span { 
-	color: #9173e6;
+  color: #9173e6;
 }
 
 .features-item-text {
-	font-size: 15px;
-	line-height: 1.2;
-	letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1.2;
+  letter-spacing: 1px;
 }
 
 .features-title,
 .features-item-title, 
 .features-item-text {
-	padding-right: 20px;
-	padding-left: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .features-item:first-of-type { 
-	background-color: #FAFAFA;
+  background-color: #FAFAFA;
 }
 .features-item:nth-of-type(2) { 
-	background-color: #F5F4F9;
+  background-color: #F5F4F9;
 }
 .features:first-child .features-item:last-child { 
-	background-color: #5E42B0;
+  background-color: #5E42B0;
 }
 .features:nth-of-type(2) .features-item:last-child { 
-	background-color: #0A0E34;
+  background-color: #0A0E34;
 }
 .features-item:last-child .features-item-text { 
-	color: #ffffff;
+  color: #ffffff;
 }
 .features-item:last-child span:before { 
-	background-color: #efefef;
+  background-color: #efefef;
 }
 
 /* main > condition */
 .condition-img {
-	position: relative;
+  position: relative;
 }
 
 .condition picture {
-	display: flex;
+  display: flex;
 }
 
 .condition-img { 
-	width: 100%;
+  width: 100%;
 }
 
 .condition-content {
-	padding: 29px 25px 67px 20px;
-	box-sizing: border-box;
+  padding: 29px 25px 67px 20px;
+  box-sizing: border-box;
 }
 
 .condition-header {
-	margin-bottom: 22px;
-	font-size: 29px;
-	font-weight: 700;
-	line-height: 0.8;
-	font-stretch: semi-condensed;
-	text-transform: uppercase;
-	color: #c1c1c1;
+  margin-bottom: 22px;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 0.8;
+  font-stretch: semi-condensed;
+  text-transform: uppercase;
+  color: #c1c1c1;
 }
 
 .condition-number {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
- 	bottom: -12px;
-	left: 20px;
-	width: 70px;
-	height: 70px;
-	font-size: 14px;
-	font-weight: 700;
-	letter-spacing: 1px;
-	line-height: 1.5;
-	color: #f5f6f7;
-	background-color: #5e42b0;
-	z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -12px;
+  left: 20px;
+  width: 70px;
+  height: 70px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #f5f6f7;
+  background-color: #5e42b0;
+  z-index: 2;
 }
 
 .condition-number:before {
-	content: "";
-	position: absolute;
-	top: 61%;
-	left: 37%;
-	width: 17px;
-	height: 4px;
-	border-radius: 1px;
-	background-color: #8F7BC8;
+  content: "";
+  position: absolute;
+  top: 61%;
+  left: 37%;
+  width: 17px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: #8F7BC8;
 }
 	
 .condition-text {
-	font-size: 16px;
-	line-height: 1.2;
-	letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 1px;
 }
 
 /* footer */
 .footer {
-	padding-top: 98px;
-	padding-bottom: 10px;
-	background-image: url(../img/game_767.jpg);
+  padding-top: 98px;
+  padding-bottom: 10px;
+  background-image: url(../img/game_767.jpg);
 }
 
 .footer-logo {
-	width: 58px;
-	padding: 13px 8px;
-	background: linear-gradient(346deg, rgba(82,56,157,1) 50%, rgba(115,83,210,1) 100%);
-	border-radius: 20%;
+  width: 58px;
+  padding: 13px 8px;
+  background: linear-gradient(346deg, rgba(82,56,157,1) 50%, rgba(115,83,210,1) 100%);
+  border-radius: 20%;
 }
 
 .footer-headings {
-	margin-top: 48px;
-	margin-bottom: 75px;
+  margin-top: 48px;
+  margin-bottom: 75px;
 }
 
 .footer-title-top {
-	font-size: 32px;
-	letter-spacing: 2px;
+  font-size: 32px;
+  letter-spacing: 2px;
 }
 
 .footer-title-bottom {
-	font-size: 14px;
-	letter-spacing: 1px;
-	color: #9b8ec1;
-	font-weight: 400;
-	margin-top: 4px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #9b8ec1;
+  font-weight: 400;
+  margin-top: 4px;
 }
 
 /* --- @media --- */
 @media (min-width: 641px) {
-	/* header */
-	.header {
-		padding-top: 39px;
-		background-image: url(../img/football_1280.jpg);
-	}
-	.logo { 
-		width: 205px;
-	}
-	.header-headings {
-		margin-top: 171px;
-		margin-bottom: 304px;
-		font-size: calc(29px + (64 - 29) * ((100vw - 641px) / ( 960 - 641) ));
-		line-height: 1.04;
-		letter-spacing: 3px;
-	}
-	/* header and footer > buttons */
-	.buttons { 
-		display: flex;
-	}
-	.button {
-		width: 312px;
-		padding-top: 21px;
-		padding-bottom: 21px;
-		font-size: 13px;
-	}
-	.button:last-child {
-		margin-left: calc(5px + (35 - 5) * ( (100vw - 641px) / ( 960 - 641) ));
-		margin-top: 0;
-	}
-	.button:before {
-		width: 50px;
-		height: 47px;
-		top: 14px;
-		left: 37px;
-	}
+  /* header */
+  .header {
+    padding-top: 39px;
+    background-image: url(../img/football_1280.jpg);
+  }
+  .logo { 
+    width: 205px;
+  }
+  .header-headings {
+    margin-top: 171px;
+    margin-bottom: 304px;
+    font-size: calc(29px + (64 - 29) * ((100vw - 641px) / ( 960 - 641) ));
+    line-height: 1.04;
+    letter-spacing: 3px;
+  }
+  /* header and footer > buttons */
+  .buttons { 
+    display: flex;
+  }
+  .button {
+    width: 312px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    font-size: 13px;
+  }
+  .button:last-child {
+    margin-left: calc(5px + (35 - 5) * ( (100vw - 641px) / ( 960 - 641) ));
+    margin-top: 0;
+  }
+  .button:before {
+    width: 50px;
+    height: 47px;
+    top: 14px;
+    left: 37px;
+  }
 	
-	/* main */
-	.features-title {
-		padding-top: 83px;
-		padding-bottom: 20px;
-		font-size: 80px;
-	}
-	.features-item {
-		padding-top: 30px;
-		padding-bottom: 32px;
-	}
-	.features-item:nth-of-type(1) { 
-		background-color: #ffffff;
-	}
-	.features-item:nth-of-type(2) { 
-		background-color: #F6F4FA;
-	}
-	.features:first-child .features-title,
-	.features:first-child .features-item-title,
-	.features:first-child .features-item-text {
-		margin-left: 35.42%;
-		padding-right: 33px;
-	}
-	.features:nth-of-type(2) .features-title,
-	.features:nth-of-type(2) .features-item-title,
-	.features:nth-of-type(2) .features-item-text {
-		margin-right: 35.42%;
-		padding-left: 33px;
-	}
-	.features-item-title { 
-		font-size: 32px;
-	}
-	.features-item-text {
-		font-size: 17px;
-		line-height: 1.7;
-	}
-	.features:first-child .feature-img {
-		top: -88px;
-		left: -160px;
-	}
-	.features:nth-child(2) .feature-img {
-		right: 0;
-		bottom: -420px;
-		left: auto;
-	}
+  /* main */
+  .features-title {
+    padding-top: 83px;
+    padding-bottom: 20px;
+    font-size: 80px;
+  }
+  .features-item {
+    padding-top: 30px;
+    padding-bottom: 32px;
+  }
+  .features-item:nth-of-type(1) { 
+    background-color: #ffffff;
+  }
+  .features-item:nth-of-type(2) { 
+    background-color: #F6F4FA;
+  }
+  .features:first-child .features-title,
+  .features:first-child .features-item-title,
+  .features:first-child .features-item-text {
+    margin-left: 35.42%;
+    padding-right: 33px;
+  }
+  .features:nth-of-type(2) .features-title,
+  .features:nth-of-type(2) .features-item-title,
+  .features:nth-of-type(2) .features-item-text {
+    margin-right: 35.42%;
+    padding-left: 33px;
+  }
+  .features-item-title { 
+    font-size: 32px;
+  }
+  .features-item-text {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+  .features:first-child .feature-img {
+    top: -88px;
+    left: -160px;
+  }
+  .features:nth-child(2) .feature-img {
+    right: 0;
+    bottom: -420px;
+    left: auto;
+  }
 
-/* main > condition */	
-	.condition-content { 
-		padding: 74px 72px 100px 33px;
-	}
-	.condition-header {
-		margin-bottom: 33px;
-		font-size: 78px;
-	}
-	.condition-number {
-		bottom: -34px;
-		left: 33px;
-		width: 117px;
-		height: 117px;
-		font-size: 24px;
-	}
-	.condition-number:before {
-		top: 70px;
-		left: 45px;
-		width: 26px;
-		height: 5px;
-		border-radius: 2px;
-	}
-	.condition-text {
-		font-size: 24px;
-		line-height: 1.1;
-	}
-	/* footer */
-	.footer {
-		padding-top: 126px;
-		padding-bottom: 24px;
-		background-image: url(../img/game_1280.jpg);
-	}
-	.footer-logo {
-		width: 102px;
-		height: 94px;
-		padding: 22px 14px;
-		border-radius: 20%;
-	}
-	.footer-headings {
-		margin-top: 62px;
-		margin-bottom: 281px;
-	}
-	.footer-title-top {
-		font-size: 80px;
-		letter-spacing: 4px;
-		line-height: 1.2;
-	}
-	.footer-title-bottom { 
-		font-size: 36px;
-		line-height: 1.2;
-	}
+  /* main > condition */	
+  .condition-content { 
+    padding: 74px 72px 100px 33px;
+  }
+  .condition-header {
+    margin-bottom: 33px;
+    font-size: 78px;
+  }
+  .condition-number {
+    bottom: -34px;
+    left: 33px;
+    width: 117px;
+    height: 117px;
+    font-size: 24px;
+  }
+  .condition-number:before {
+    top: 70px;
+    left: 45px;
+    width: 26px;
+    height: 5px;
+    border-radius: 2px;
+  }
+  .condition-text {
+    font-size: 24px;
+    line-height: 1.1;
+  }
+  /* footer */
+  .footer {
+    padding-top: 126px;
+    padding-bottom: 24px;
+    background-image: url(../img/game_1280.jpg);
+  }
+  .footer-logo {
+    width: 102px;
+    height: 94px;
+    padding: 22px 14px;
+    border-radius: 20%;
+  }
+  .footer-headings {
+    margin-top: 62px;
+    margin-bottom: 281px;
+  }
+  .footer-title-top {
+    font-size: 80px;
+    letter-spacing: 4px;
+    line-height: 1.2;
+  }
+  .footer-title-bottom { 
+    font-size: 36px;
+    line-height: 1.2;
+  }
 }
 
 @media (min-width: 768px) { 
-	.button:last-child { 
-		margin-left: 50px;
-	} 
+  .button:last-child { 
+    margin-left: 50px;
+  } 
 }
 
 @media (min-width: 961px) {
-		/* header */
-	.header {
-		padding-top: 45px;
-		background-image: url(../img/football_1920.jpg);
-	}
-	.logo { 
-		width: 191px;
-	}
-	.header-headings {
-		width: 83.33%;
-		max-width: 1600px;
-		font-size: calc(64px + (90 - 64) * ((100vw - 961px) / ( 1920 - 961) ));
-		letter-spacing: 5px;
-		line-height: 0.9;
-	}
-	.header-title-bottom {  
-		margin-left: 26.25%;
-	}
+  /* header */
+  .header {
+    padding-top: 45px;
+    background-image: url(../img/football_1920.jpg);
+  }
+  .logo { 
+    width: 191px;
+  }
+  .header-headings {
+    width: 83.33%;
+    max-width: 1600px;
+    font-size: calc(64px + (90 - 64) * ((100vw - 961px) / ( 1920 - 961) ));
+    letter-spacing: 5px;
+    line-height: 0.9;
+  }
+  .header-title-bottom {  
+    margin-left: 26.25%;
+  }
 
-	/* main */
-	.features-title {
-		padding-top: 115px;
-		padding-bottom: 49px;
-	}
-	.features-item {
-		padding-top: 51px;
-		padding-bottom: 54px;
-	}
-	.features-item-title { 
-		font-size: 34px;
-	}
-	.features-item-text {
-		font-size: 20px;
-		line-height: 1.4;
-	}
-	.features-item-title span {
-		padding-right: 12px;
-		font-size: 16px;
-	}
-	.features-item-title span:before {
-		top: 25px;
-		width: 19px;
-		height: 5px;
-	}
-	.features:first-child .features-title,
-	.features:first-child .features-item-title,
-	.features:first-child .features-item-text {
-		margin-left: 50%;
-		padding-left: 37px;
-	}
-	.features:nth-of-type(2) .features-title,
-	.features:nth-of-type(2) .features-item-title,
-	.features:nth-of-type(2) .features-item-text {
-		margin-right: 50%;
-		margin-left: auto;
-		padding-left: 191px;
-	}
-	.features:first-child .feature-img {
-		top: -215px;
-		left: calc(50% - 580px);
-	}
-	.features:nth-child(2) .feature-img {
-		top: -239px;
-		right: 125px;
-		left: calc(50% - 125px);
-	}
+  /* main */
+  .features-title {
+    padding-top: 115px;
+    padding-bottom: 49px;
+  }
+  .features-item {
+    padding-top: 51px;
+    padding-bottom: 54px;
+  }
+  .features-item-title { 
+    font-size: 34px;
+  }
+  .features-item-text {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .features-item-title span {
+    padding-right: 12px;
+    font-size: 16px;
+  }
+  .features-item-title span:before {
+    top: 25px;
+    width: 19px;
+    height: 5px;
+  }
+  .features:first-child .features-title,
+  .features:first-child .features-item-title,
+  .features:first-child .features-item-text {
+    margin-left: 50%;
+    padding-left: 37px;
+  }
+  .features:nth-of-type(2) .features-title,
+  .features:nth-of-type(2) .features-item-title,
+  .features:nth-of-type(2) .features-item-text {
+    margin-right: 50%;
+    margin-left: auto;
+    padding-left: 191px;
+  }
+  .features:first-child .feature-img {
+    top: -215px;
+    left: calc(50% - 580px);
+  }
+  .features:nth-child(2) .feature-img {
+    top: -239px;
+    right: 125px;
+    left: calc(50% - 125px);
+  }
 
-	/* main > condition */
-	.conditions { 
-		display: flex;
-	}
-	.conditions:nth-child(4) { 
-		flex-direction: row-reverse;
-	}
-	.condition { 
-		width: 50%;
-	}
-	.condition-content {
-		padding-top: calc(74px + (256 - 74) * ((100vw - 961px) / (1920 - 961) ));
-		padding-left: 6.7%;
-		padding-bottom: 0;
-		padding-right: calc(72px + (193 - 72) * ((100vw - 961px) / (1920 - 961) ));
-	}
-	.conditions:nth-child(4) .condition-content {
-		padding-right: 6.7%;
-		padding-left: calc(117px + (193 - 117) * ((100vw - 961px) / (1920 - 961) ));
-	}
-	.condition-header { 
-		margin-bottom: calc(33px + (120 - 33) * ((100vw - 961px) / (1920 - 961) )); 
-	}
-	.condition-number {
-		bottom: 48%;
-		right: 0;
-		left: calc(422px + (875 - 422) * ((100vw - 961px) / (1920 - 961) )); 
-		width: calc(117px + (168 - 117) * ((100vw - 961px) / (1920 - 961) ));
-		height: calc(117px + (155 - 117) * ((100vw - 961px) / (1920 - 961) ));
-		font-size: 24px;
-	}
+  /* main > condition */
+  .conditions { 
+    display: flex;
+  }
+  .conditions:nth-child(4) { 
+    flex-direction: row-reverse;
+  }
+  .condition { 
+    width: 50%;
+  }
+  .condition-content {
+    padding-top: calc(74px + (256 - 74) * ((100vw - 961px) / (1920 - 961) ));
+    padding-left: 6.7%;
+    padding-bottom: 0;
+    padding-right: calc(72px + (193 - 72) * ((100vw - 961px) / (1920 - 961) ));
+  }
+  .conditions:nth-child(4) .condition-content {
+    padding-right: 6.7%;
+    padding-left: calc(117px + (193 - 117) * ((100vw - 961px) / (1920 - 961) ));
+  }
+  .condition-header { 
+    margin-bottom: calc(33px + (120 - 33) * ((100vw - 961px) / (1920 - 961) )); 
+  }
+  .condition-number {
+    bottom: 48%;
+    right: 0;
+    left: calc(422px + (875 - 422) * ((100vw - 961px) / (1920 - 961) )); 
+    width: calc(117px + (168 - 117) * ((100vw - 961px) / (1920 - 961) ));
+    height: calc(117px + (155 - 117) * ((100vw - 961px) / (1920 - 961) ));
+    font-size: 24px;
+  }
 	
-	.conditions:nth-of-type(4) .condition-number {
-		left: calc(-59px + (-85 + 59) * ((100vw - 961px) / (1920 - 961) ))/*-59px -84px*/; 
-		right: 0;
-	}
+  .conditions:nth-of-type(4) .condition-number {
+    left: calc(-59px + (-85 + 59) * ((100vw - 961px) / (1920 - 961) ))/*-59px -84px*/; 
+    right: 0;
+  }
 
-	.condition-number:before {
-		top: 65%;
-		left: auto;
-	}
+  .condition-number:before {
+    top: 65%;
+    left: auto;
+  }
 	
-	.footer {
-		padding-top: 227px;
-		padding-bottom: 52px;
-		background-image: url(../img/game_1920.jpg);
-	}
-	.footer-content { 
-		display: flex;
-	}
-	.footer-headings { 
-		margin-bottom: 156px;
-	}
-	.footer-title-bottom { 
-		font-size: 30px;
-		text-align: left;
-	}
-	.footer-headings {
-		margin-top: 0;
-		margin-left: 39px;
-	}
-	.footer-title-bottom { 
-		margin-left: 0;
-	}
+  .footer {
+    padding-top: 227px;
+    padding-bottom: 52px;
+    background-image: url(../img/game_1920.jpg);
+  }
+  .footer-content { 
+    display: flex;
+  }
+  .footer-headings { 
+    margin-bottom: 156px;
+  }
+  .footer-title-bottom { 
+    font-size: 30px;
+    text-align: left;
+  }
+  .footer-headings {
+    margin-top: 0;
+    margin-left: 39px;
+  }
+  .footer-title-bottom { 
+    margin-left: 0;
+  }
 }
 
-/*@media (min-width: 961px) and (max-width: 1457px) {
-	.conditions:nth-child(4) .condition-number { 
-		top: -38%; 
-	}
-}*/
-
 @media (min-width: 1921px) {
-	.condition-number {
-		width: 168px;
-		height: 155px;
-		left: 91%;
-	}
+  .condition-number {
+    width: 168px;
+    height: 155px;
+    left: 91%;
+  }
 	
-	.header-headings { 
-		font-size: 90px;
-	}
+  .header-headings { 
+    font-size: 90px;
+  }
 	
-	/* main */
-	.features-title, 
-	.features-item-title,
-	.features-item-text { 
-		max-width: 960px;
-	}
+  /* main */
+  .features-title, 
+  .features-item-title,
+  .features-item-text { 
+    max-width: 960px;
+  }
 	
-	.conditions {
-		max-width: 1920px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	.condition-content {
-		padding-top: 257px;
-		padding-right: 193px;
-	}
-	.conditions:nth-child(4) .condition-content { 
-		padding-left: 193px;
-	}
-	.condition-header { 
-		margin-bottom: 120px;
-	}
-	.condition-header span {
-		width: 168px;
-		height: 155px; 
-	}
+  .conditions {
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .condition-content {
+    padding-top: 257px;
+    padding-right: 193px;
+  }
+  .conditions:nth-child(4) .condition-content { 
+    padding-left: 193px;
+  }
+  .condition-header { 
+    margin-bottom: 120px;
+  }
+  .condition-header span {
+    width: 168px;
+    height: 155px;
+  }
 }
